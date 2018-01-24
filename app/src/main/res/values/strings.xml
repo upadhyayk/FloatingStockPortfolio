@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FloatingStockPortfolio</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="addStockMessage">There are no stocks to show. Please add a stock</string>
+    <string name="addStock">Stock to Add</string>
+    <string name="go">Go</string>
+</resources>

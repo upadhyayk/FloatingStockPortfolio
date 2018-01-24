@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.temple.floatingstockportfolio.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/fragmentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/textViewMessage"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_above="@+id/imageButton"
+        android:layout_marginBottom="104dp"
+        android:layout_toStartOf="@+id/imageButton"
+        android:text="@string/addStockMessage"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="287dp"
+        android:layout_height="80dp"
+        android:text="@string/addStock"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true">
+
+    </EditText>
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:background="@drawable/background"
+        android:src="@drawable/ic_playlist_add_black_24dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="34dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/goButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/editText"
+        android:layout_alignTop="@+id/editText"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="13dp"
+        android:text="@string/go" />
+
+
+</RelativeLayout>
